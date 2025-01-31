@@ -9,22 +9,25 @@
 
 .burger.is-active div:nth-child(1) {
   transform: translateY(8px) rotate(45deg);
+  background: white;
 }
 
 .burger.is-active div:nth-child(2) {
   transform: translateX(100%);
   opacity: 0;
+  background: white;
 }
 
 .burger.is-active div:nth-child(3) {
   transform: translateY(-8px) rotate(-45deg);
+  background: white;
 }
 
 .burger div {
   position: absolute;
   width: 100%;
   height: 3px;
-  background: #000;
+  background: black;
   transition: transform 0.3s, opacity 0.3s;
 }
 
@@ -47,12 +50,27 @@
   bottom: 0;
   left: 0;
   padding: 50px;
-  background: #ccc;
+  background: black;
   opacity: 0;
   pointer-events: none;
   transition: opacity 0.3s;
   transform: translateX(100%);
   transition: transform 0.3s;
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  font-family: "CabinetGroteskBold", sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+}
+
+.menu ul {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 80px;
 }
 
 .menu.is-active {
