@@ -1,7 +1,34 @@
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
 .l-logo-container {
+  display: flex;
+}
+
+.l-footer-icons {
   display: flex;
 }
 
 .l-footer-nav {
   display: flex;
+  flex-direction: column;
+}
+
+.l-card {
+  margin-bottom: 50px;
+}
+
+.l-card-img {
+  max-width: 100%;
+  height: auto;
+  display: block;
 }
