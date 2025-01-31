@@ -16,6 +16,8 @@
 
 .l-footer-icons {
   display: flex;
+  justify-content: space-between;
+  padding-top: 15px;
 }
 
 .l-footer-nav {
@@ -31,4 +33,17 @@
   max-width: 100%;
   height: auto;
   display: block;
+}
+
+.l-picto-footer {
+  filter: invert(100%);
+  width: 300px;
+  position: absolute;
+  right: 50px;
+  clip-path: inset(0 0 35% 0);
+}
+
+.l-footer-mail {
+  font-size: 12px;
+  font-family: Roboto Mono, serif;
 }
