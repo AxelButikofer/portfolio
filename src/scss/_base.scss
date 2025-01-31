@@ -19,6 +19,7 @@ header {
   top: 0;
   background: white;
   padding: 10px 0;
+  margin-bottom: 30px;
 }
 
 footer {
@@ -39,11 +40,12 @@ footer p {
   padding: 50px 0;
 }
 
-h1 {
+h1 a {
   font-family: "CabinetGroteskExtra", sans-serif;
   text-transform: uppercase;
   font-size: 40px;
   padding-top: 5px;
+  text-decoration: none;
 }
 
 p {
@@ -54,6 +56,8 @@ p {
 
 nav {
   padding-top: 12px;
+  display: flex;
+  justify-content: space-between;
 }
 
 nav a {
