@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Axel Bütikofer - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <include src="./include/include-header.html"></include>
+    <include src="./include/include-work.html">
+      { "workname": "Glitch", "workyear": "2024", "workdescription": "Ce projet
+      fictif à été réalisé durant ma 3eme année de formation, consistant à
+      réaliser un site web pour la promotion d’une bande dessiné formé autour
+      d’un axe de storytelling et de pousser sur des animations en javascript
+      avec l’outil GSAP..", "projectname": "Chocolate Festival" }
+    </include>
+    <div class="container">
+      <div class="row"></div>
+    </div>
+
+    <include src="./include/include-footer.html"></include>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
