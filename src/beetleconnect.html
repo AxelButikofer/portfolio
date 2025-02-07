@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Axel Bütikofer - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <include src="./include/include-header.html"></include>
+    <include src="./include/include-work.html">
+      { "workname": "Beetle Connect", "workyear": "2024", "workdescription":
+      "J’ai réalisé ce projet au cours de ma troisième année de formation.
+      L’objectif était de concevoir une application connectée spécialement
+      adaptée à un modèle de Beetle, en mettant l’accent sur l’expérience
+      utilisateur, les fonctionnalités et l’intégration avec les
+      caractéristiques du véhicule."}
+    </include>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <img
+            class="l-card-img l-card"
+            src="/src/img/beetle/mockup_beetle_1.jpg?as=webp"
+            alt="Un mockup du projet."
+          />
+        </div>
+        <div class="col-12">
+          <img
+            class="l-card-img l-card"
+            src="./img/beetle/mockup-beetle_2.jpg?as=webp"
+            alt="Un mockup du projet."
+          />
+        </div>
+        <div class="col-12">
+          <iframe
+            style="border: 1px solid rgba(0, 0, 0, 0.1)"
+            width="1100"
+            height="450"
+            src="https://embed.figma.com/design/jxH9AX73nMlrkYHThztegM/Beetle-Connect?node-id=88-259&m=dev&embed-host=share"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <include src="./include/include-footer.html"></include>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
