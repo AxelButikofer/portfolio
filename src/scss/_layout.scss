@@ -24,11 +24,10 @@
 }
 
 .l-picto-footer {
-  filter: invert(100%);
   width: 300px;
   position: absolute;
   right: 50px;
-  clip-path: inset(0 0 35% 0);
+  bottom: 0;
 }
 
 .l-footer-mail {
@@ -38,4 +37,8 @@
 
 .l-about-content {
   margin-bottom: 240px;
+}
+
+.l-picto-container {
+  position: relative;
 }
