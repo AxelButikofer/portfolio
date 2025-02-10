@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Axel Bütikofer - Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="scss/main.scss" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <include src="./include/include-header.html"></include>
+    <include src="./include/include-work.html">
+      { "workname": "Gimme Love Music Video", "workyear": "2023",
+      "workdescription": "J’ai créé ce projet lors de ma deuxième année de
+      formation, où l’objectif était de réaliser un clip musical pour une
+      chanson de notre choix. J’ai choisi Gimme Love de Joji, cherchant à
+      raconter l’histoire de mon personnage à travers ses souvenirs passés avec
+      ses proches." }
+    </include>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <iframe
+            width="1400"
+            height="700"
+            src="https://www.youtube-nocookie.com/embed/KkkZ06G4p9c?si=AfmH-TCberxMdloD"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+          ></iframe>
+        </div>
+      </div>
+    </div>
+
+    <include src="./include/include-footer.html"></include>
+    <script src="js/main.js" type="module"></script>
+  </body>
+</html>
