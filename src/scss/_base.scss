@@ -2,6 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
+  scroll-behavior: smooth;
 }
 
 a {
@@ -46,6 +47,11 @@ h1 a {
   font-size: 40px;
   padding-top: 5px;
   text-decoration: none;
+}
+
+h1 {
+  padding-top: 5px;
+  padding-left: 10px;
 }
 
 p {
