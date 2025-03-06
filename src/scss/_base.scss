@@ -88,3 +88,13 @@ li a:hover {
   color: lightgreen;
   transition: 0.5s;
 }
+
+::-moz-selection {
+  color: white;
+  background: lightgreen;
+}
+
+::selection {
+  color: white;
+  background: lightgreen;
+}
