@@ -51,3 +51,26 @@
 .l-works-card-underline {
   margin-bottom: 20px;
 }
+
+.l-homepage-btn {
+  text-decoration: none;
+  background: black;
+  color: white;
+  padding: 20px;
+  border-radius: 50px;
+  border: 1px black solid;
+  font-family: Roboto Mono, serif;
+  font-size: 30px;
+}
+
+.l-homepage-btn:hover {
+  background: white;
+  color: black;
+  border: 1px black solid;
+  animation-duration: 3s;
+  transition: 0.2s;
+}
+
+.l-homepage-bottom-margin {
+  height: 70px;
+}
